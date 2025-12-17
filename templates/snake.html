@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Snake</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <h1>🐍 Snake</h1>
+      <a class="btn" href="/">Back to Hub</a>
+    </div>
+    <div class="row">
+      <button id="start" class="btn">Start / Restart</button>
+      <span class="pill">Score: <b id="score">0</b></span>
+      <span class="pill" id="status">Ready</span>
+    </div>
+    <canvas id="c" width="600" height="600"></canvas>
+    <p class="muted">Controls: Arrow keys or WASD</p>
+  </div>
+  <script src="/static/snake.js"></script>
+</body>
+</html>
